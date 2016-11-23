@@ -18,7 +18,7 @@ int main()
    //std::cout << 1024f << std::endl; Invalid suffix f on integer.
    std::cout << 3.14L << std::endl;
 
-   std::cout << "2M\n" << std::endl;
-   std::cout << "2\tM\n" << std::endl;
+   std::cout << "\x32\115\n" << std::endl;
+   std::cout << "\62\t\x4d\n" << std::endl;
    return 0;
 }
